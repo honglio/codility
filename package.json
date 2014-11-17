@@ -13,7 +13,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "./node_modules/.bin/mocha --reporter spec --timeout 10000 ./**/*.spec.js"
   },
   "keywords": [
     "codility",
